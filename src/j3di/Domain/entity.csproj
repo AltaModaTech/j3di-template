@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../common.prod.props" />
+
+  <ItemGroup>
+    <PackageReference Include="j3di.domain" Version="4.*" />
+    <PackageReference Include="j3di.infrastructure.entityfactoryfx" Version="4.*" />
+    <PackageReference Include="j3di.infrastructure.repositoryfx" Version="4.*" />
+  </ItemGroup>
+
+</Project>

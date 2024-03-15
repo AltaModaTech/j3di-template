@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../common.test.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\domain\entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="amt.linqextensions" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>

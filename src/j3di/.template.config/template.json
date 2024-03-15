@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "AltaModa Technologies",
+  "classifications": [ "DDD", "J3DI" ],
+  "identity": "AMT.J3DI",
+  "name": "J3DI project",
+  "shortName": "domain",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

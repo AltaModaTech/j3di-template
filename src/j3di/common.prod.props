@@ -1,0 +1,20 @@
+<Project>
+
+  <Import Project="./common.props" />
+
+
+  <!-- NuGet package attributes  -->
+  <PropertyGroup>
+    <PackageTags>NCF DotNet .NET DotNetCore</PackageTags>
+    <PackageReleaseNotes>NCF Sample</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/AltaModaTech/ncf</PackageProjectUrl>
+    <!-- <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression> -->
+    <!-- A readme in packages is required for pushing to NuGet -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
